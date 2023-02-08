@@ -1,15 +1,13 @@
-import type { NextPage } from 'next';
+import Header from '/components/Header';
+import LoginBox from '/components/LoginBox';
+import { useState } from 'react';
 
-const Login: NextPage = () => {
+export default function Login() {
   return (
-    <div className="flex flex-row items-center justify-between mx-auto bg-gray-100">
-      <h1> 1234 </h1>
-      <h1> 1234 </h1>
-      <h1> 1234 </h1>
-      <h1> 1234 </h1>
-      <h1> 1234 </h1>
-      <h1> 1234 </h1>
-    </div>
+    <>
+      <Header />
+      <LoginBox />
+      <div>12344321</div>
+    </>
   );
-};
-export default Login;
+}
